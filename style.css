@@ -1,0 +1,180 @@
+ /*CSS Stylesheet*/
+ 
+ /* Styling the body element*/
+
+body{
+
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    
+}
+ /* Styling the h1 heading*/
+
+h1{
+   
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   font-size: 5.625rem;
+   color: #66BFBF;
+
+}
+ /* Styling the h2 heading*/
+
+h2{
+   
+    margin-top: 70px;
+    font-family:'Merriweather', serif;
+    font-size: 2.15rem;
+    color: #66BFBF;
+    padding-top: 5px;
+
+}
+ 
+ /* Styling the h3 heading & a href tags*/
+
+h3, a{
+
+    color: #11999E;
+
+ }
+
+ /* Styling the a href tag*/
+
+a{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    
+ }
+
+/* Styling the a href tag using pseudo class*/
+
+a:hover{
+
+     color: #EAF6F6;
+ }
+
+ /* Styling the paragraph element*/
+
+p{
+    
+    line-height: 2;
+
+}
+
+/* Styling the horizontal rule*/
+
+hr{
+    border-color: #EAF6F6 ;
+    border-style: none;
+    border-width: 6px ;
+    border-style: dotted none none;
+    height: 0px;
+    width: 4%;
+    margin: 80px auto;
+
+}
+  
+/* Styling the header section (top container)*/
+
+ .bottom-cloud{
+
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+
+.top-cloud{
+  
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+
+.top-container{
+    
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+     
+}
+
+/* Styling Intro, About Me, Skills Section in the middle container*/
+
+.middle-container{
+ 
+ background-color: white;
+ margin: 60px 0;
+
+}
+
+.intro{
+    width: 60%;
+    margin: auto;
+}
+
+
+.aboutme{
+
+   width: 80%;
+   margin: auto;
+   
+}
+
+/* Styling the three skills section using display flex property*/
+
+.skill-row{
+
+    display: flex;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+/* Styling "Get in touch" or Contact section in the bottom container*/
+
+.bottom-container{
+
+    width: 50%;
+    margin: 30px auto 40px;
+    line-height: 1.5;
+}
+
+/* Styling social links*/
+
+.social{
+
+    background-color: white;
+    padding: 30px 0 20px;
+    
+}
+
+
+/* Styling footer section*/
+
+.footer{
+
+    background-color: #EAF6F6;
+}
+
+
+
+.copyright{
+
+    color:#66BFBF;
+    font-size: 75%;
+    padding:20px 0 ;
+    
+}
+
+
+
+
